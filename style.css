@@ -135,3 +135,43 @@ button {
    flex-direction:column;
    
 }
+
+.bottom-section{
+    padding:128px 0px 128px 0px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.b-container{
+    display:flex;
+    border: 4px solid #3882F6;
+    background-color:#3882F6;
+    width:800px;
+    overflow:hidden;
+    padding:40px;
+    border-radius:12px;
+    justify-content: space-between;
+}
+
+.b-textbox{
+    display:flex;
+    flex-direction:column;
+}
+
+.b-header,.b-text,.b-button{
+    color:white;
+}
+
+.b-header{
+    font-weight:900;
+    font-size:24px;
+}
+
+.b-text{
+    font-size:18px;
+}
+
+.b-button{
+    font-weight:900;
+}
