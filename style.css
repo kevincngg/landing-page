@@ -182,3 +182,15 @@ a{
     border: 2px solid white;
 }
 
+.footer{
+    background-color:#1F2937;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:24px 0px 24px 0px;
+}
+
+.footer-text{
+    color:white;
+    font-size:14px;
+}
