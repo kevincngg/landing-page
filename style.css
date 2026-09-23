@@ -70,7 +70,7 @@ button {
 
 }
 
-img{
+.ts-txt-img img{
     max-width:30%;
     height:25%;
     padding:64px;
@@ -82,8 +82,25 @@ img{
     justify-content:space-between;
 
 }
+.top-middle-section{
+    text-align:center;
+}
+
+.tm-header{
+    font-size:36px;
+    color:#1F2937;
+    font-weight:900;
+    padding:32px;
+}
 
 .tm-container img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.tm-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
 }
