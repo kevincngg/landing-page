@@ -81,8 +81,9 @@ a{
 }
 
 .ts-txt-img img{
-    max-width:40%;
-    height:25%;
+    width:500px;
+    max-width:100%;
+    height: auto;
     padding: 64px 0;
 
 }
