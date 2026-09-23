@@ -69,3 +69,17 @@ button {
     gap:8px;
 
 }
+
+img{
+    max-width:30%;
+    height:25%;
+    padding:64px;
+
+}
+
+.ts-txt-img{
+    display:flex;
+    justify-content:space-between;
+    
+
+}
