@@ -1,0 +1,71 @@
+@import url('https://googleapis.com');
+.body{
+    font-family:'Roboto',sans-serif;
+    display:flex;
+    
+}
+
+.top-section{
+    display:flex;
+    justify-content:space-between;
+    background-color:#1F2937;
+    flex-direction:column;
+    padding:0px 64px 0 64px;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    padding:16px 64px 0 64px;
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    gap:16px;
+}
+
+a{
+    text-decoration:none;
+    color:#F9FAF8;
+}
+
+.logo{
+    font-size:24px;
+}
+
+.ts-main, .logo{
+    color: #f9faf8;
+    font-weight: 900;
+
+}
+
+.ts-main{
+    font-size:48px;
+}
+
+.ts-snd{
+   color: #E5E7EB;
+   font-size: 18px;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color:#3882F6;
+  color:#E5E7EB;
+  font-weight:700;
+  border: 2px solid #3882F6;
+}
+
+.image-text{
+    display:flex;
+    padding:64px;
+    flex-direction:column;
+    max-width:400px;
+    gap:8px;
+
+}
