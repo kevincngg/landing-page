@@ -80,6 +80,10 @@ img{
 .ts-txt-img{
     display:flex;
     justify-content:space-between;
-    
 
+}
+
+.tm-container img {
+    width: 100px;
+    height: 100px;
 }
